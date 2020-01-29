@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+		
+        <meta charset="utf-8">
+        <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width">
+        <title>Атлетический калькулятор</title>
+		<style>
+			body {
+			background: #000 url(https://creativekidz.co.in/wp-content/uploads/2018/02/fran.jpg);
+			color: #fff;
+			background-size: 100%;		
+				 }			 
+			
+			#infa {				
+				position: relative;
+				margin-top:0px;				
+			}
+			
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+.navbar a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 1.4% 1.6%;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.navbar a:hover {
+  background: #f1f1f1;
+  color: black;
+}
+
+.navbar a.active {
+  background-color: #4CAF50;
+  color: white;
+}
+
+}			
+			
+			
+			
+			
+		</style>
+		<script type="text/javascript" src ="calc.js"></script>
+    </head>
+	
+    <body>
+		<div id="infa">
+		<p align="center"><big>Введите рабочий вес штанги:</big></p>
+		<p align="center"><input id="t1" type="number" required step="2.5" min="20"></input></p>
+		<p align="center"><big>Введите кол-во повторений:</big></p>
+		<p align="center"><input id="t2" type="number" required step="1" min="1"></input></p>
+		<p align="center"><button onClick="ras4et();">Рассчитать</button></p>
+		
+		<p align="center"><big><big><big><big><big><big><output id="total"></big></big></big></big></big></big></p>
+		</div>
+			
+
+
+
+<div class="navbar">
+  <a class="active">Расчёт 1 ПМ</a>
+  <a href="index1.html">Расчёт<br>повторений</a>
+  <a href="index2.html">Расчёт веса</a>
+</div>
+
+
+
+<script type="text/javascript" src="calc.js"></script>
+    </body>
+	
+</html>

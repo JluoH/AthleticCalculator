@@ -13,7 +13,7 @@
     <preference name="SplashScreenDelay" value="3000" />  
     <preference name="AutoHideSplashScreen" value="true" />
     <preference name="SplashMaintainAspectRatio" value="true" />
-    <icon src="icon.jpg" />
+    <icon src="icon.png" />
     <splash src="splash.png" />
     <access origin="*" />
     <allow-intent href="http://*/*" />
